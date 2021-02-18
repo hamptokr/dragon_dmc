@@ -1,0 +1,13 @@
+[package]
+name = "dragon_dmc"
+version = "0.1.0"
+authors = ["Kramer Hampton <me@kramerhampton.dev>"]
+edition = "2018"
+
+[lib]
+name = "dragon_dmc"
+crate-type = ["cdylib"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libc = "0.2"
